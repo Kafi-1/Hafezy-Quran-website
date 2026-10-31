@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact — Hafezy Quran</title>
+<meta name="description" content="Contact Hafezy Quran support for bug reports, feature requests and feedback.">
+<meta property="og:image" content="https://hafezyquran.xyz/assets/screenshots/promo.png"><meta name="twitter:card" content="summary_large_image"><link rel="canonical" href="https://hafezyquran.xyz/contact.html">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,400;500;600&family=Noto+Sans+Bengali:wght@400;500;600;700&family=Noto+Serif+Bengali:wght@400;500;600&display=swap"><meta name="theme-color" content="#123e32"><link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<script src="js/theme.js"></script>
+</head>
+<body>
+<div id="site-header"></div>
+<main>
+  <section class="page-hero pattern">
+    <p class="eyebrow" data-i18n="contactEyebrow">We’re listening</p>
+    <h1 data-i18n="contactTitle">Contact Hafezy Quran.</h1>
+    <p class="lead" data-i18n="contactLead">Send a message below for support, bug reports, feature requests or feedback.</p>
+  </section>
+
+  <section class="section contact-form-section">
+    <div class="contact-form-card">
+      <h2 data-i18n="formTitle">Send a message</h2>
+      <p class="muted" data-i18n="formLead">Fill in the form. Your message is delivered to the developer. You do not need Telegram.</p>
+
+      <form id="contact-form" class="contact-form" novalidate>
+        <div class="form-row">
+          <label for="cf-name"><span data-i18n="labelName">Name</span> *</label>
+          <input id="cf-name" name="name" type="text" required autocomplete="name" maxlength="120" placeholder="Your name">
+        </div>
+        <div class="form-row">
+          <label for="cf-email"><span data-i18n="labelEmail">Email</span> *</label>
+          <input id="cf-email" name="email" type="email" required autocomplete="email" maxlength="120" placeholder="you@example.com">
+        </div>
+        <div class="form-row">
+          <label for="cf-phone"><span data-i18n="labelPhone">Phone</span></label>
+          <input id="cf-phone" name="phone" type="tel" autocomplete="tel" maxlength="40" placeholder="+880…">
+        </div>
+        <div class="form-row">
+          <label for="cf-subject"><span data-i18n="labelSubject">Subject</span></label>
+          <input id="cf-subject" name="subject" type="text" maxlength="160" placeholder="Support / Bug / Feature…">
+        </div>
+        <div class="form-row">
+          <label for="cf-message"><span data-i18n="labelMessage">Message</span> *</label>
+          <textarea id="cf-message" name="message" required rows="6" maxlength="4000" placeholder="Write your message…"></textarea>
+        </div>
+        <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+        <button type="submit" class="button primary" id="form-submit" data-i18n="formSubmit">Send message</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="section contact-grid">
+    <article class="contact-card">
+      <span class="contact-icon">✉</span>
+      <h2 data-i18n="emailSupport">Email support</h2>
+      <p data-i18n="emailSupportText">You can also email us directly.</p>
+      <a class="button secondary" href="mailto:support@hafezyquran.xyz">support@hafezyquran.xyz</a>
+    </article>
+    <article class="contact-card">
+      <span class="contact-icon">⌘</span>
+      <h2 data-i18n="reportBug">Report a bug</h2>
+      <p data-i18n="bugText">Include your app version, Android version, what you expected, what happened, and steps to reproduce the issue.</p>
+    </article>
+    <article class="contact-card">
+      <span class="contact-icon">✦</span>
+      <h2 data-i18n="featureRequest">Suggest a feature</h2>
+      <p data-i18n="featureRequestText">Describe the problem the feature would solve and how you imagine it should work.</p>
+    </article>
+    <article class="contact-card">
+      <span class="contact-icon">⌘</span>
+      <h2 data-i18n="navDeveloper">Developer</h2>
+      <p data-i18n="devContactText">Learn more about the developer behind Hafezy Quran.</p>
+      <a class="button secondary" href="developer.html" data-i18n="viewDeveloper">Meet the developer</a>
+    </article>
+  </section>
+</main>
+<div id="site-footer"></div>
+<script src="js/config.js"></script>
+<script src="js/translations.js"></script>
+<script src="js/main.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>
